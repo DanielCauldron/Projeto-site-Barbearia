@@ -1,0 +1,343 @@
+body {
+  background-image: url(../img/img-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+    margin: 0;
+    padding: 0;
+    
+}
+h1, h3 {
+    color:orange
+}
+
+p {
+    color: whitesmoke;
+}
+
+/*--Cabeçalho--*/
+
+.start {
+    width: 100%;
+    height: 150px;
+    padding: 0 2em;
+    position: relative ;
+    box-sizing: border-box;
+   
+    
+}
+.logo {
+    max-width: 200px;
+    margin-top: auto;
+   
+}
+nav {
+    position:relative;
+
+}
+.btn-items {
+    list-style: none;
+    position: absolute;
+    display: inline-block;
+    height: 100px;
+    line-height: 100px;
+    margin: 10;
+    right: 30px;
+}
+.btn-items li {
+    display: inline-block;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-left: 35px;
+    
+}
+.btn-items li a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.btn-items li a:hover {
+    color: #ccc;
+}
+.btn-agendamento {
+    padding: 15px 20px;
+    background-color: 	orange;
+    border-radius: 5px;
+    color: #fff;
+
+   
+}
+.btn-agendamento:hover {
+    background-color: goldenrod;}
+    
+         /*----Banner*/
+ .Banner-principal{
+    background-image: url('../img/logo02.webp');
+    background-size: cover;
+    background-position: center;
+    padding: 30em 0;
+    height: 20px;
+    position: relative;
+ } 
+ 
+ .Banner-principal h1 {
+    color: #FFF;
+    text-shadow: -1px -1px 0px #FFF, 
+    -1px 1px 0px #FFF,      
+     1px -1px 0px #FFF,    
+     1px 0px 0px #FFF;
+    font-size: 7px;    
+    font-family: 'Six Caps', sans-serif;
+    font-weight: bold;
+    color:goldenrod;
+    margin-left:20px;
+    font-size: 75px;
+
+   
+ }
+ .Banner-principal p{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: black;
+    background-color: rgba(256, 256, 256, 0.6);
+   
+
+ }
+
+ /*--Serviços--*/
+
+ .containner  {
+    padding: 1em 0;
+    width: auto;
+    height: 200px;
+    margin-top: -12px;
+    margin-left: auto;
+    text-align: center;
+ }
+ .containner h1 {
+  font-size: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 23px;
+ }
+
+ .containner h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 200px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 45px;
+    border: 1px solid goldenrod;
+    text-align: center;
+ }
+ .servico {
+   display: flex;
+   height: 500px;
+   margin-left: 50px;
+   margin-right: 90px;  
+   margin-top: 5px;
+ }
+ 
+ .servico p {
+  font-size:18px;
+  max-width: 100%;
+  margin-top: auto;
+  border: 1px solid goldenrod;
+ }
+ .preco {
+  margin-top: -20px;
+  font-size: 50px;
+  font-weight: bold;
+  color: whitesmoke;
+ }
+
+ .preco:hover {
+  font-size: 65px;
+  transition: font-size 0.5s;
+  color: goldenrod;
+ }
+
+ .btn-agendamento2 {
+  
+  padding: 25px 10px;
+  margin-right: 10px;
+  background-color: 	orange;
+  border-radius: 5px;
+  color: #fff;
+}
+
+#btn-agendamento2 {
+  color: #fff;
+  Text-decoration: none;
+  transition: 0.5s;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 15px 20px;
+  background-color: 	orange;
+  border-radius: 10px;
+  color: #fff;
+
+}
+#btn-agendamento2:hover {
+  background-color: goldenrod;}
+  
+
+ /*---Sobre nos-***/
+ .sobre {
+   height: 300px;
+   padding: 1em 0;
+   background-color: black;
+   margin-top: 400px;
+  
+ }
+ .sobre h1 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size:40px;
+  margin-left:30px;
+  margin-top: 10px;
+  
+ }
+ .sobre p{
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 18px;
+  margin-top: 15px;
+
+ 
+ }
+ /*---galeria---*/
+
+ .galeria {
+
+    height: 600px;
+    padding: 4em 0;
+    background: url(../img/img-05.jpg);
+    margin-left: auto;
+    margin-top: 150px;
+    min-height: 600px;
+   
+  }
+   
+  .galeria h1 {
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align-last: center;  
+    margin-top: -5px;
+  }
+  .galeria P{
+    font-size: 18px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 15px;
+
+  }
+  /*--carrosel--*/
+
+  .carrosel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    overflow: hidden;
+  
+  }
+  .gallery {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 35px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .grid-item {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .grid-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+  }
+  
+  .grid-item:hover img {
+    transform: scale(1.1);
+  }
+  
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+  
+  .modal-content {
+    display: block;
+    max-width: 80%;
+    max-height: 80%;
+    margin: auto;
+    margin-top: 10%;
+  }
+  /*--footer--*/
+
+  .footer {
+    height: 40px;
+    background-color: black;
+    text-align: center;
+    padding-top: 250px;
+    font-size: 14px;
+    color: #999;
+  }
+  .footer img {
+    width: auto;
+    height: 300px;
+    margin-right: 10px;
+    margin-top: -300px;
+  }
+  .footer p {
+   margin-top:-30px;
+  margin-right: 30px;
+  }
+  .social-icons {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+
+  .social-icons a {
+    margin: 0 10px;
+    margin-top: auto; 
+    
+  }
+  .footer a img{
+    height: 40px;
+    width: 40px; 
+    margin-right: 200px;
+    margin-left: -205px; 
+    float: auto; 
+  }
+
+
+   
+
+
+  
+  
+  
+  
+
+
+  
+ 
+
+ 
